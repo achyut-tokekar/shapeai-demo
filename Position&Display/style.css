@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* about position:absolute and relative */
+.parent {
+    position: relative; /*all child will relate to this parent*/
+    background-color: #FFD32D;
+    width: 300px;
+    height: 300px;
+}
+
+.child {
+    position: absolute; /*if we wanted to position ourselves*/
+    top: 0;
+    right: 0;
+    background-color: #008E89;
+    width: 100px;
+    height: 100px;
+}
+
+/* about display:block, inline, inline-block, none */
+.span {
+    background-color: #FFD32D;
+    display: block; /*thsi will change span's deafult property*/
+}
+
+.parent2 {
+    background-color: #FFD32D;
+    width: 100%;
+    height: 500px;
+}
+
+.child2 {
+    display: inline-block;
+    background-color: #008E89;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
